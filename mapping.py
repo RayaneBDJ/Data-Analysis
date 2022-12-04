@@ -1,11 +1,14 @@
 
 # Column : integer -> 
-map_dict_age = { -0.95197 : list(range(18,25)),
-            -0.07854 : list(range(25,35)),
-            0.49788 : list(range(5,45)),
-            1.09449 : list(range(45-55)),
-            1.82213 : list(range(55-65)),
-            2.59171 : list(range(65,100))  }
+
+# mapping 
+
+map_dict_age = { -0.95197 : [18,24],
+            -0.07854 : [25,34],
+            0.49788 : [35,45],
+            1.09449 : [45,55],
+            1.82213 : [55,65],
+            2.59171 : [65,100]  }
 
 map_dict_gender = {0.48246:"Female",
                    -0.48246:"Male"}
@@ -38,14 +41,18 @@ map_dict_ethnicity = {-0.50212:"Asian",
                       0.11440:"Other",
                       -0.31685:"White"}
 
-map_dict_drugs = {'CL0' : 0,
-                    'CL1' : 1,
-                    'CL2' : 2,
-                    'CL3' : 3,
-                    'CL4' : 4,
-                    'CL5' : 5,
-                    'CL6' : 6}
+map_dict_drugs = {'CL0' : 'NeverUsed',
+                    'CL1' : 'OverDecadeAgo',
+                    'CL2' : 'LastDecade',
+                    'CL3' : 'LastYear',
+                    'CL4' : 'LastMonth',
+                    'CL5' : 'LastWeek',
+                    'CL6' : 'LastDay'}
 # A voir si je le garde comme celui des drogues
+
+
+# encoding 
+
 
 
 
