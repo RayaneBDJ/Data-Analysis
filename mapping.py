@@ -22,6 +22,9 @@ map_dict_education = {-2.43591:"Left school before 16 years",
                       0.45468:"University degree", 
                       1.16365:"Masters degree",
                       1.98437:"Doctorate degree"}
+# Left school : mettre une seule valeur
+# 
+
 
 
 map_dict_country = {-0.09765:"Australia", 
@@ -31,6 +34,9 @@ map_dict_country = {-0.09765:"Australia",
                     0.21128:"Republic of Ireland", 
                     0.96082:"UK", 
                     -0.57009:"USA"}
+# Republic of ireland : RI
+# New Zealand : NZ
+# etc
 
 
 map_dict_ethnicity = {-0.50212:"Asian",
@@ -40,6 +46,8 @@ map_dict_ethnicity = {-0.50212:"Asian",
                       -0.22166:"White-Black",
                       0.11440:"Other",
                       -0.31685:"White"}
+
+
 
 map_dict_drugs = {'CL0' : 'NeverUsed',
                     'CL1' : 'OverDecadeAgo',
@@ -52,6 +60,14 @@ map_dict_drugs = {'CL0' : 'NeverUsed',
 
 
 # encoding 
+
+encode_dict_drugs = {'CL0' : 0,
+                    'CL1' : 1,
+                    'CL2' : 2,
+                    'CL3' : 3,
+                    'CL4' : 4,
+                    'CL5' : 5,
+                    'CL6' : 6}
 
 
 
