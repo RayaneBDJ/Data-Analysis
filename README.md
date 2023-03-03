@@ -14,3 +14,5 @@ This is a data analysis project about the classification of drug consumers in 20
 - __Analysis__ : exploration, building statistical models, vizualisation and representations, correlation vs causation analysis, hypothesis testing, reporting
 
 - __Action__ : Building ML models, building ETL (Extract, Transform, and Load) pipelines, data-based decisions
+
+[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/vt5fpE0bzSY)
