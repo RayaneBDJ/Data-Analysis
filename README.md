@@ -15,4 +15,6 @@ This is a data analysis project about the classification of drug consumers in 20
 
 - __Action__ : Building ML models, building ETL (Extract, Transform, and Load) pipelines, data-based decisions
 
-[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/ZHMVqjgc3bY)
+# Result :
+
+[![Watch the video]()](https://youtu.be/ZHMVqjgc3bY)
